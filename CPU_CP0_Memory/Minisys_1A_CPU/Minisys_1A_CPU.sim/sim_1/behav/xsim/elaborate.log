@@ -1,0 +1,66 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/VIVADO2017.4/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cf7f03fed56546d2a5c4fc4cb7f5145f --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Minisys_1A_CPU_sim_behav xil_defaultlib.Minisys_1A_CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 16 for port Wdata [C:/Users/ENHg/Desktop/Minisys_1A_CPU_2/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/pipedevices.v:132]
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_mux
+Compiling module xil_defaultlib.pc_add
+Compiling module xil_defaultlib.fetch_instruction
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram0
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram1
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram2
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram3
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.HILOreg
+Compiling module xil_defaultlib.decode_instruction
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.calculate_PC
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.execute_instruction
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.Led
+Compiling module xil_defaultlib.pipedevices
+Compiling module xil_defaultlib.Mem_or_IO
+Compiling module xil_defaultlib.pre_data_memory
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram0
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram1
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram2
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram3
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.post_data_memory
+Compiling module xil_defaultlib.access_datamemory
+Compiling module xil_defaultlib.CP0
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.Minisys_1A_CPU
+Compiling module xil_defaultlib.Minisys_1A_CPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Minisys_1A_CPU_sim_behav

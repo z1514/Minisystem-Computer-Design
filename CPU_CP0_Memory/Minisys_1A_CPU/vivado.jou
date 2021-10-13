@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jan 16 19:39:41 2021
+# Process ID: 10856
+# Current directory: C:/Users/ENHg/Desktop/Minisys_1A_CPU_2/Minisys_1A_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15832 C:\Users\ENHg\Desktop\Minisys_1A_CPU_2\Minisys_1A_CPU\Minisys_1A_CPU.xpr
+# Log file: C:/Users/ENHg/Desktop/Minisys_1A_CPU_2/Minisys_1A_CPU/vivado.log
+# Journal file: C:/Users/ENHg/Desktop/Minisys_1A_CPU_2/Minisys_1A_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/ENHg/Desktop/Minisys_1A_CPU_2/Minisys_1A_CPU/Minisys_1A_CPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim

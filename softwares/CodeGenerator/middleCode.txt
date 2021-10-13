@@ -1,0 +1,8 @@
+index           label        op      arg1      arg2       des
+   0)        main:          =         1              [BP-2]
+   1)            :          =         2              [BP-4]
+   2)            :         j<    [BP-2]    [BP-4]   LABEL_4
+   3)            :          j                       LABEL_6
+   4)     LABEL_4:          =    [BP-2]              [BP-4]
+   5)            :          j                             _
+   6)     LABEL_6:          =    [BP-4]              [BP-2]

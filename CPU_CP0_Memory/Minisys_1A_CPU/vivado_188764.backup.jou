@@ -1,0 +1,79 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Jan 15 17:32:56 2021
+# Process ID: 188764
+# Current directory: D:/Minisys_1A_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent186776 D:\Minisys_1A_CPU\Minisys_1A_CPU.xpr
+# Log file: D:/Minisys_1A_CPU/vivado.log
+# Journal file: D:/Minisys_1A_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Minisys_1A_CPU/Minisys_1A_CPU.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+add_bp {D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/Minisys_1A_CPU.v} 216
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+update_ip_catalog -rebuild -scan_changes
+report_ip_status -name ip_status
+upgrade_ip -srcset instruction_memory_0 -vlnv xilinx.com:user:instruction_memory:1.0 [get_ips  instruction_memory_0] -log ip_upgrade.log
+export_ip_user_files -of_objects [get_ips instruction_memory_0] -no_script -sync -force -quiet
+update_compile_order -fileset sources_1
+generate_target all [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/instruction_memory_0/instruction_memory_0.xci]
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/instruction_memory_0/instruction_memory_0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/instruction_memory_0/instruction_memory_0.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+create_fileset -blockset instruction_memory_0
+set_property top instruction_memory_0 [get_fileset instruction_memory_0]
+move_files -fileset [get_fileset instruction_memory_0] [get_files -of_objects [get_fileset sources_1] D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/instruction_memory_0/instruction_memory_0.xci]
+launch_run instruction_memory_0_synth_1
+wait_on_run instruction_memory_0_synth_1
+
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim
+launch_simulation
+source Minisys_1A_CPU_sim.tcl
+close_sim

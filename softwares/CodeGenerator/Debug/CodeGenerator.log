@@ -1,0 +1,9 @@
+﻿  ASMGenerate.cpp
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(103,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(109,17): warning C4018: “<”: 有符号/无符号不匹配
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(282,37): warning C4305: “=”: 从“int”到“bool”截断
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(329,38): warning C4305: “=”: 从“int”到“bool”截断
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(622,20): warning C4018: “>=”: 有符号/无符号不匹配
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(670,23): warning C4018: “<”: 有符号/无符号不匹配
+D:\code\Homework\Compiler\CodeGenerator\CodeGenerator\ASMGenerate.cpp(89): warning C4715: “RegName”: 不是所有的控件路径都返回值
+  CodeGenerator.vcxproj -> D:\code\Homework\Compiler\CodeGenerator\Debug\CodeGenerator.exe

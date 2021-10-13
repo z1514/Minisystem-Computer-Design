@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/ALU.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/calculate_PC.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/execute_instruction.v" \
+"../../../../Minisys_1A_CPU.srcs/sim_1/new/execute_instruction_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

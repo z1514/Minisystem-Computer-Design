@@ -1,0 +1,33 @@
+.data
+.text
+main:   addi       $fp    ,$zero    ,32767
+            addi       $sp      ,$fp        ,0
+            addi        $8    ,$zero        ,0
+label1:   addi        $9    ,$zero        ,1
+label2:      j    label3
+              sw       $8,   -4($fp)
+              sw       $9,   -8($fp)
+label3:     lw       $11  ,-8($fp)
+            addi       $t9    ,$zero        ,1
+             SLL       $10      ,$11      ,$t9
+label5:   addi       $t9    ,$zero        ,0
+             beq         4      ,$10      ,$t9
+               j    label7
+              sw       $9,   -8($fp)
+               j    label8
+label7:   addi       $12    ,$zero        ,1
+label8:   addi       $13    ,$zero     ,-928
+              lw       $14  ,-8($fp)
+              sw      $14,    0($13)
+label10:     lw       $15  ,-4($fp)
+            addi       $t9    ,$zero   ,100000
+             jge         4      ,$15      ,$t9
+               j   label12
+               j   label15
+label12:     lw       $17  ,-4($fp)
+            addi       $t9    ,$zero        ,1
+             ADD       $16      ,$17      ,$t9
+               j   label10
+label15:   addi       $18    ,$zero        ,0
+               j    label2
+label17:   addi       $v0    ,$zero        ,0

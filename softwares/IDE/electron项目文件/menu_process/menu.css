@@ -1,0 +1,30 @@
+.tab_editor
+{
+    border-top: 4px solid #CBCBCB; 
+    margin-left: 360PX;
+    margin-top: 5px;
+    resize: none;
+    font-size: 22px;
+    height: 25px;
+}
+
+.menu_editor
+{
+    float:top;
+    width: 300px;
+    resize: none;
+    margin-top: 5px;
+    margin-left: 0PX;
+    font-size: 22px;
+}
+
+.yubanmeiqin
+{
+    float:left;
+    resize: none;
+    width: 300px;
+    height:225px;
+    top: 5px;
+    background:url(pao.jpg);
+    opacity: 0.4
+}

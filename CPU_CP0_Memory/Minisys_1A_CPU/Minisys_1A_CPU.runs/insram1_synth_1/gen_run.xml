@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="insram1_synth_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1610748981">
+  <File Type="PA-TCL" Name="insram1.tcl"/>
+  <File Type="REPORTS-TCL" Name="insram1_reports.tcl"/>
+  <File Type="RDS-RDS" Name="insram1.vds"/>
+  <File Type="RDS-UTIL" Name="insram1_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="insram1_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="insram1.dcp"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/insram1">
+    <File Path="$PSRCDIR/sources_1/ip/insram1/insram1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="insram1"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/insram1">
+    <File Path="$PSRCDIR/sources_1/ip/insram1/insram1.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="insram1"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

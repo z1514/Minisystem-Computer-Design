@@ -1,0 +1,47 @@
+type_spec->int 
+fun_decl_head->type_spec id ( ) 
+BlockLeader->
+type_spec->int 
+expr->num 
+var_decl->type_spec id = expr 
+stmt->var_decl ; 
+stmts->stmt 
+M->
+type_spec->int 
+expr->num 
+var_decl->type_spec id = expr 
+stmt->var_decl ; 
+stmts->stmts M stmt 
+M->
+BlockLeader->
+expr->id 
+rel->< 
+expr->id 
+logic_expr->expr rel expr 
+M->
+expr->id 
+expr_stmt->id = expr 
+stmt->expr_stmt ; 
+stmts->stmt 
+stmt->{ stmts } 
+N->
+M->
+expr->id 
+expr_stmt->id = expr 
+stmt->expr_stmt ; 
+stmts->stmt 
+stmt->{ stmts } 
+if_stmt->if BlockLeader ( logic_expr ) M stmt N else M stmt 
+stmt->if_stmt 
+stmts->stmts M stmt 
+M->
+type_spec->int 
+expr->id 
+var_decl->type_spec id = expr 
+stmt->var_decl ; 
+stmts->stmts M stmt 
+fun_define->fun_decl_head BlockLeader { stmts } 
+stmt->fun_define 
+stmts->stmt 
+program->stmts 
+S->program 

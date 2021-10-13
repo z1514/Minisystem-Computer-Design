@@ -1,0 +1,283 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Jan 16 09:48:54 2021
+# Process ID: 200540
+# Current directory: D:/Minisys_1A_CPU
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent197156 D:\Minisys_1A_CPU\Minisys_1A_CPU.xpr
+# Log file: D:/Minisys_1A_CPU/vivado.log
+# Journal file: D:/Minisys_1A_CPU\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Minisys_1A_CPU/Minisys_1A_CPU.xpr
+INFO: [Project 1-313] Project file moved from 'C:/MIPSfpga/Minisys_1A_CPU/Minisys_1A_CPU' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado2017/Vivado/2017.4/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'dataram0' generated file not found 'd:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram0/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd'. Please regenerate to continue.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:29 . Memory (MB): peak = 820.031 ; gain = 117.172
+update_compile_order -fileset sources_1
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram3/dataram3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dataram3'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 828.484 ; gain = 0.000
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram3/dataram3.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram3/dataram3.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram2/dataram2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dataram2'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 830.578 ; gain = 0.000
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram2/dataram2.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram2/dataram2.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram1/dataram1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dataram1'...
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 837.742 ; gain = 3.703
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram1/dataram1.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram1/dataram1.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram0/dataram0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'dataram0'...
+generate_target: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 841.527 ; gain = 0.000
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram0/dataram0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram0/dataram0.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram3/insram3.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'insram3'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 842.996 ; gain = 1.082
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram3/insram3.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram3/insram3.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram2/insram2.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'insram2'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 845.910 ; gain = 0.434
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram2/insram2.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram2/insram2.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram1/insram1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'insram1'...
+generate_target: Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 846.859 ; gain = 0.543
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram1/insram1.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram1/insram1.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram0/insram0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'insram0'...
+generate_target: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 847.625 ; gain = 0.742
+export_ip_user_files -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram0/insram0.xci] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram0/insram0.xci] -directory D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/sim_scripts -ip_user_files_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files -ipstatic_source_dir D:/Minisys_1A_CPU/Minisys_1A_CPU.ip_user_files/ipstatic -lib_map_path [list {modelsim=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/modelsim} {questa=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/questa} {riviera=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/riviera} {activehdl=D:/Minisys_1A_CPU/Minisys_1A_CPU.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/vivado2017/Vivado/2017.4/data/xsim/ip/xsim_ip.ini' copied to run dir:'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Minisys_1A_CPU_sim' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram0.coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram1.coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram2.coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/dataram3.coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram0.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram0 .coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram1.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram1.coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram2.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram2.coe'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram3.mif'
+INFO: [SIM-utils-43] Exported 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/insram3.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Minisys_1A_CPU_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram3/sim/dataram3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataram3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram2/sim/dataram2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataram2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram1/sim/dataram1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataram1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/dataram0/sim/dataram0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dataram0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram3/sim/insram3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insram3
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram2/sim/insram2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insram2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram1/sim/insram1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insram1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/ip/insram0/sim/insram0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module insram0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/CP0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CP0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/HILOreg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HILOreg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/LED.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Led
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/Mem_or_IO.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mem_or_IO
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/Minisys_1A_CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Minisys_1A_CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/access_datamemory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module access_datamemory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/calculate_PC.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module calculate_PC
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/decode.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/decode_instruction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decode_instruction
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/ex_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ex_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/execute_instruction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module execute_instruction
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/fetch_instruction.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fetch_instruction
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/id_ex.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module id_ex
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/if_id.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module if_id
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/instruction_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instruction_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/mem_wb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mem_wb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/pc_add.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_add
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/pc_mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pc_mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/pipedevices.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pipedevices
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/post_data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module post_data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/pre_data_memory.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pre_data_memory
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/registers.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module registers
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sim_1/new/Minisys_1A_CPU_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Minisys_1A_CPU_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 848.141 ; gain = 0.105
+INFO: [USF-XSim-69] 'compile' step finished in '10' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim'
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado2017/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto cf7f03fed56546d2a5c4fc4cb7f5145f --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Minisys_1A_CPU_sim_behav xil_defaultlib.Minisys_1A_CPU_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 16 for port Wdata [D:/Minisys_1A_CPU/Minisys_1A_CPU.srcs/sources_1/new/pipedevices.v:132]
+WARNING: [VRFC 10-1783] select index 30 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2419]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.pc_mux
+Compiling module xil_defaultlib.pc_add
+Compiling module xil_defaultlib.fetch_instruction
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram0
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram1
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram2
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.insram3
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.extend
+Compiling module xil_defaultlib.registers
+Compiling module xil_defaultlib.HILOreg
+Compiling module xil_defaultlib.decode_instruction
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.calculate_PC
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.execute_instruction
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.Led
+Compiling module xil_defaultlib.pipedevices
+Compiling module xil_defaultlib.Mem_or_IO
+Compiling module xil_defaultlib.pre_data_memory
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram0
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram1
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram2
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.dataram3
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.post_data_memory
+Compiling module xil_defaultlib.access_datamemory
+Compiling module xil_defaultlib.CP0
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.Minisys_1A_CPU
+Compiling module xil_defaultlib.Minisys_1A_CPU_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Minisys_1A_CPU_sim_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:33 . Memory (MB): peak = 848.145 ; gain = 0.004
+INFO: [USF-XSim-69] 'elaborate' step finished in '33' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Minisys_1A_CPU/Minisys_1A_CPU.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Minisys_1A_CPU_sim_behav -key {Behavioral:sim_1:Functional:Minisys_1A_CPU_sim} -tclbatch {Minisys_1A_CPU_sim.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+source Minisys_1A_CPU_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U1.insram0.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U1.insram1.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U1.insram2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U1.insram3.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U7.U1.dataram0.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U7.U1.dataram1.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U7.U1.dataram2.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+ Block Memory Generator module loading initial data...
+ Block Memory Generator data initialization complete.
+Block Memory Generator module Minisys_1A_CPU_sim.uut.U7.U1.dataram3.inst.native_mem_module.blk_mem_gen_v8_4_1_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+xsim: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 934.797 ; gain = 75.512
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Minisys_1A_CPU_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:58 . Memory (MB): peak = 934.797 ; gain = 86.996
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 16 10:45:40 2021...

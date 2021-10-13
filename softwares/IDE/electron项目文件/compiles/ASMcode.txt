@@ -1,0 +1,86 @@
+.data
+.text
+     fib:   push       $fp
+            push        $8
+            push        $9
+            push       $10
+            push       $11
+            push       $12
+            push       $13
+            push       $14
+            push       $15
+            push       $16
+            push       $17
+            push       $18
+            push       $19
+            push       $20
+            push       $21
+            push       $22
+            push       $23
+            addi       $fp      ,$sp        ,0
+            addi       $sp      ,-32        ,0
+              lw        $8  ,40($fp)
+            addi       $t9    ,$zero        ,2
+              jg         4       ,$8      ,$t9
+               j    label2
+               j    label3
+  label2:   addi       $v0    ,$zero        ,1
+            addi       $sp      ,$fp        ,0
+             pop       $23
+             pop       $22
+             pop       $21
+             pop       $20
+             pop       $19
+             pop       $18
+             pop       $17
+             pop       $16
+             pop       $15
+             pop       $14
+             pop       $13
+             pop       $12
+             pop       $11
+             pop       $10
+             pop        $9
+             pop        $8
+             pop       $fp
+             pop       $ra
+              jr       $ra
+  label3:     lw       $10  ,40($fp)
+            addi       $t9    ,$zero        ,1
+             SUB        $9      ,$10      ,$t9
+            push                 ,$9
+             jal       fib
+            addi       $11      ,$v0        ,0
+  label8:   addi       $t9    ,$zero        ,2
+             SUB       $12      ,$10      ,$t9
+            push                ,$12
+             jal       fib
+            addi       $13      ,$v0        ,0
+ label13:    ADD       $14      ,$11      ,$13
+            addi       $v0      ,$14        ,0
+            addi       $sp      ,$fp        ,0
+             pop       $23
+             pop       $22
+             pop       $21
+             pop       $20
+             pop       $19
+             pop       $18
+             pop       $17
+             pop       $16
+             pop       $15
+             pop       $14
+             pop       $13
+             pop       $12
+             pop       $11
+             pop       $10
+             pop        $9
+             pop        $8
+             pop       $fp
+             pop       $ra
+              jr       $ra
+    main:   addi       $fp    ,$zero    ,32767
+            addi       $sp      ,$fp        ,0
+            addi       $t8    ,$zero        ,5
+            push                ,$t8
+             jal       fib
+            addi       $15      ,$v0        ,0

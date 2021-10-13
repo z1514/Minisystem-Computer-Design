@@ -1,0 +1,11 @@
+index         label        op      arg1      arg2       des
+   0)        main:          =     -1024              [BP-8]
+   1)            :         $=         0              [BP-8]
+   2)     LABEL_2:          j                       LABEL_3
+   3)     LABEL_3:          =     -1008             [BP-12]
+   4)            :         =$   [BP-12]             [BP-16]
+   5)            :          =   [BP-16]              [BP-4]
+   6)     LABEL_6:          =     -1024             [BP-20]
+   7)            :         $=    [BP-4]             [BP-20]
+   8)            :          j                       LABEL_2
+   9)     LABEL_9:     return         0                    

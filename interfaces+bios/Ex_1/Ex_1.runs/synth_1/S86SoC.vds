@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jan 14 15:02:17 2021
+# Process ID: 3152
+# Current directory: C:/Users/yuanyuan/Ex_1/Ex_1.runs/synth_1
+# Command line: vivado.exe -log S86SoC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source S86SoC.tcl
+# Log file: C:/Users/yuanyuan/Ex_1/Ex_1.runs/synth_1/S86SoC.vds
+# Journal file: C:/Users/yuanyuan/Ex_1/Ex_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source S86SoC.tcl -notrace
+Command: synth_design -top S86SoC -part xc7a100tfgg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 17672 
+WARNING: [Synth 8-2611] redeclaration of ansi port leds is not allowed [C:/sysclassfiles/interface/interface/Ex_1/rtl_up/Led.v:35]
+WARNING: [Synth 8-2611] redeclaration of ansi port Pwm is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/PWM.v:27]
+WARNING: [Synth 8-2611] redeclaration of ansi port write is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:30]
+WARNING: [Synth 8-2611] redeclaration of ansi port addr is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:31]
+WARNING: [Synth 8-2611] redeclaration of ansi port data_in is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:33]
+WARNING: [Synth 8-2611] redeclaration of ansi port Clk is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:34]
+WARNING: [Synth 8-2611] redeclaration of ansi port Reset is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:35]
+WARNING: [Synth 8-2611] redeclaration of ansi port Pwm is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:36]
+WARNING: [Synth 8-2611] redeclaration of ansi port data_out is not allowed [C:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/new/pipedevices.v:37]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 399.828 ; gain = 110.539
+---------------------------------------------------------------------------------
+ERROR: [Synth 8-439] module 'S86SoC' not found
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 430.586 ; gain = 141.297
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+2 Infos, 9 Warnings, 0 Critical Warnings and 2 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 14 15:02:37 2021...

@@ -1,0 +1,5 @@
+﻿D:\visualstudio\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(76,5): warning : 对路径“d:\計算機綜合設計\編譯器\yacc\seuyacc\debug\seuyacc.exe”的访问被拒绝。
+  main.cpp
+  read_file.cpp
+  正在生成代码...
+LINK : fatal error LNK1104: 无法打开文件“D:\計算機綜合設計\編譯器\yacc\SeuYacc\Debug\SeuYacc.exe”

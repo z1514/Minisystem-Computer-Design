@@ -1,0 +1,42 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/dataram3/sim/dataram3.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/dataram2/sim/dataram2.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/dataram1/sim/dataram1.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/dataram0/sim/dataram0.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/insram3/sim/insram3.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/insram2/sim/insram2.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/insram1/sim/insram1.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/ip/insram0/sim/insram0.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/ALU.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/CP0.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/HILOreg.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/LED.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/Mem_or_IO.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/Minisys_1A_CPU.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/access_datamemory.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/calculate_PC.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/data_memory.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/decode.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/decode_instruction.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/ex_mem.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/execute_instruction.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/extend.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/fetch_instruction.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/id_ex.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/if_id.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/instruction_memory.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/mem_wb.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/pc_add.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/pc_mux.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/pipedevices.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/post_data_memory.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/pre_data_memory.v" \
+"../../../../Minisys_1A_CPU.srcs/sources_1/new/registers.v" \
+"../../../../Minisys_1A_CPU.srcs/sim_1/new/Minisys_1A_CPU_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

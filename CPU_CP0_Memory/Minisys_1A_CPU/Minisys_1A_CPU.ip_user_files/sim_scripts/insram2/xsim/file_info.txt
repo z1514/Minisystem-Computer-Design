@@ -1,0 +1,2 @@
+insram2.v,verilog,xil_defaultlib,../../../../Minisys_1A_CPU.srcs/sources_1/ip/insram2/sim/insram2.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

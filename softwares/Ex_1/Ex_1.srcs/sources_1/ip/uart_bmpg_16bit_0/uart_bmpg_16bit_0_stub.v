@@ -1,0 +1,29 @@
+// Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+// --------------------------------------------------------------------------------
+// Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+// Date        : Tue Dec  3 17:07:29 2019
+// Host        : DESKTOP-RLL7IB7 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub
+//               c:/Users/yuanyuan/Ex_1/Ex_1.srcs/sources_1/ip/uart_bmpg_16bit_0/uart_bmpg_16bit_0_stub.v
+// Design      : uart_bmpg_16bit_0
+// Purpose     : Stub declaration of top-level module interface
+// Device      : xc7a100tfgg484-1
+// --------------------------------------------------------------------------------
+
+// This empty module with port declaration file causes synthesis tools to infer a black box for IP.
+// The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
+// Please paste the declaration into a Verilog source file or add the file as an additional source.
+(* X_CORE_INFO = "uart_bmpg_16bit,Vivado 2017.4" *)
+module uart_bmpg_16bit_0(upg_clk_i, upg_clk_o, upg_done_o, upg_rst_i, 
+  upg_rx_i, upg_tx_o, upg_wen_o, upg_adr_o, upg_dat_o)
+/* synthesis syn_black_box black_box_pad_pin="upg_clk_i,upg_clk_o,upg_done_o,upg_rst_i,upg_rx_i,upg_tx_o,upg_wen_o,upg_adr_o[15:0],upg_dat_o[15:0]" */;
+  input upg_clk_i;
+  output upg_clk_o;
+  output upg_done_o;
+  input upg_rst_i;
+  input upg_rx_i;
+  output upg_tx_o;
+  output upg_wen_o;
+  output [15:0]upg_adr_o;
+  output [15:0]upg_dat_o;
+endmodule
